@@ -1,0 +1,18 @@
+{
+  "name": "temperature-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "upload": "nodemcu-tool upload hello.lua",
+    "run": "nodemcu-tool run hello.lua",
+    "repl": "nodemcu-tool terminal",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemcu-tool": "^3.2.1"
+  }
+}
